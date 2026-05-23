@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.topic_7.WelcomeController"
+      alignment="CENTER" spacing="16"
+      prefWidth="380" prefHeight="280"
+      style="-fx-padding: 40; -fx-background-color: #f5f5f5;">
+
+    <Label text="WORKSHOP ACIVITY"
+           style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+    <Label text="Welcome to the system! Click button to get started."
+           style="-fx-font-size: 12px; -fx-text-fill: #555;"/>
+    <Button fx:id="btnStart" text="Get Started" onAction="#goToMain"
+            style="-fx-font-size: 13px; -fx-padding: 8 24;"/>
+
+</VBox>
